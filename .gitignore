@@ -1,17 +1,22 @@
-# Python cache
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Environment variables
+# Environment
 .env
-.env.*
-
-# Virtual environments
-.venv/
+.env.local
 venv/
+.venv/
 
-# OS files
+# IDE & OS
 .DS_Store
-
-# Editor history
+Thumbs.db
+.vscode/
+.idea/
 .history/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
